@@ -1,0 +1,5 @@
+echo "query mutiple db schema"
+while read f
+do
+ echo $f
+done < list.txt
